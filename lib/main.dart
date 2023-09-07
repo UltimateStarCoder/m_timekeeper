@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:m_timekeeper/sign_in_page.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 

@@ -41,7 +41,7 @@ class SignInPage extends StatelessWidget {
     var password = data.password!;
 
     try {
-      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+      await FirebaseAuth.instance.signInWithEmailAndPassword(
           email: emailAddress,
           password: password
       );
@@ -59,7 +59,7 @@ class SignInPage extends StatelessWidget {
     var password = data.password!;
 
     try {
-      final credential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
+      await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: emailAddress,
         password: password,
       );
